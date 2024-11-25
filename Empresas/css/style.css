@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f8f8f8;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to bottom, #021024, #052659);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+  
+  /* Section Title */
+  .section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 30px 0;
+    color: #021024;
+  }
+  
+  /* Card Layout */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    color: #052659;
+    margin: 15px 0 5px;
+  }
+  
+  .card p {
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #021024;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+
+/* Make the entire card a clickable link */
+.card {
+    display: block; /* Turns the <a> into a block-level element */
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Ensures the text uses the default text color */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    color: #052659;
+    margin: 15px 0 5px;
+  }
+  
+  .card p {
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    text-decoration: none; /* Keeps text clean */
+  }
+  
